@@ -19,11 +19,11 @@
   - 어떤 변수의 값이 `null`이 되었다면, 이 변수는 GC가 될 가능성이 있을까요?
   - Reference counting 방식과 이 알고리즘에서 발생할 수 있는 순환 참조(retain cycle)에 대해 설명하세요.
 - 기본 타입(Primitive type)과 참조 타입(Reference type)에 대해 설명하세요.
-- Call by value와 call by reference
+- Call by value vs Call by reference
   - 각각의 개념과 그 차이에 대해 설명하세요.
   - 과연 모든 언어에 이 개념이 존재할까요?
 - `equals()`와 `hashcode()`
-  - `equals()`와 `hashcode()`에 대해 설명하세요.
+  - 각각의 메서드가 어떤 역할을 하는지, 그리고 두 메서드의 관계에 대해 설명하세요.
   - `hashcode()`를 직접 정의해야 한다면, 어떤 점을 염두에 두고 구현 하실건가요?
   - `equals()`를 재정의 해야 할 때, 어떤 점을 염두에 두어야 하는지 설명해 주세요.
 - `String` vs `StringBuffer` vs `StringBuilder`
