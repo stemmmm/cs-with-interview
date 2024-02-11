@@ -123,8 +123,8 @@
   - JWT 인증 방식에 대해 설명하세요.
   - Signature는 어떻게 만들어지나요?
   - 만약 access token이 탈취되면, 어떻게 대응해야 할까요?
-  - 반대로 Refresh Token이 탈취되면, 어떻게 대응해야 할까요?
-- Base64 인코딩과
+  - 반대로 refresh token이 탈취되면, 어떻게 대응해야 할까요?
+- Base64 인코딩
 
 <br>
 
