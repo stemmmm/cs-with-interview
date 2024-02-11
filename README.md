@@ -425,6 +425,19 @@
 
 <br>
 
+# 디자인패턴
+- 디자인 패턴이란 무엇인가요?
+- 싱글톤 패턴
+  - 싱글톤의 장단점에 대해 설명해 주세요.
+  - 싱글톤이 하나의 객체만 생성한다는 것을 어떻게 보장할 수 있을까요?
+- 어댑터 패턴에 대해 설명하세요.
+- 탬플릿 메소드 패턴에 대해 설명하세요.
+- 팩토리 메소드 패턴에 대해 설명하세요.
+- 옵저버 패턴에 대해 설명하세요.
+- 스트레티지 패턴에 대해 설명하세요.
+- 컴포지트 패턴에 대해 설명하세요.
+
+
 # 출처
 - https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 - https://github.com/gyoogle/tech-interview-for-developer
