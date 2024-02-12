@@ -94,7 +94,7 @@
 # 프로그래밍 일반
 - [프로그래밍 패러다임](https://velog.io/@stemmmm/프로그래밍-패러다임)
   - [객체 지향 프로그래밍 (Object-Oriented Programming, OOP)](https://velog.io/@stemmmm/oop)
-    - SOLID
+    - [SOLID](https://velog.io/@stemmmm/solid)
     - Composition의 개념과 활용 방법
     - 왜 클래스는 단일 상속만 가능한데, 인터페이스는 2개 이상 구현이 가능할까요?
   - 함수형 프로그래밍 (Functional Programming)
