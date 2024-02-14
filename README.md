@@ -17,7 +17,7 @@
 <br>
 
 # Java
-- 자바의 컴파일 과정
+- [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
 - 자바 가상 머신 (Java Virtual Machine, JVM)
   - 자바 가상 머신(JVM)의 역할과 기능에 대해 설명하세요.  
   - 자바 말고 다른 언어는 JVM 위에 올릴 수 없나요?
