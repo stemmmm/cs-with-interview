@@ -18,12 +18,7 @@
 
 # Java
 - [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
-- 자바 가상 머신 (Java Virtual Machine, JVM)
-  - 자바 가상 머신(JVM)의 역할과 기능에 대해 설명하세요.  
-  - 자바 말고 다른 언어는 JVM 위에 올릴 수 없나요?
-  - 반대로 JVM 계열 언어를 일반적으로 컴파일해서 사용할 순 없나요?
-  - VM을 사용함으로써 얻을 수 있는 장점과 단점
-  - JVM과 내부에서 실행되고 있는 프로세스는 부모 - 자식 관계를 갖고 있다고 봐도 무방한가요?
+- [자바 가상 머신 (Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
 - 가비지 콜렉션 (Garbage Collection, GC)
   - GC의 원리와 장단점에 대해 설명하세요.  
   - 자바에서는 GC를 어떤 방식으로 구현했나요?
