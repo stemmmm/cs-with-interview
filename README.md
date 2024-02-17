@@ -19,7 +19,7 @@
 # Java
 - [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
 - [자바 가상 머신 (Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
-- [가비지 콜렉터 (Garbage Collector, GC)](https://velog.io/@stemmmm/gc)
+- [가비지 컬렉션 (Garbage Collection, GC)](https://velog.io/@stemmmm/gc)
 - 기본 타입(Primitive type) vs 참조 타입(Reference type)
 - Call by value vs Call by reference
   - 각각의 개념과 그 차이에 대해 설명하세요.
