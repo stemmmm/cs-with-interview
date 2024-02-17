@@ -19,15 +19,9 @@
 # Java
 - [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
 - [자바 가상 머신 (Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
-- 가비지 콜렉션 (Garbage Collection, GC)
-  - GC의 원리와 장단점에 대해 설명하세요.  
-  - 자바에서는 GC를 어떤 방식으로 구현했나요?
-  - GC는 어떤 데이터 영역을 관리하나요?
-  - `finalize()`를 수동으로 호출하는 것은 왜 문제가 될 수 있을까요?
-  - 어떤 변수의 값이 `null`이 되었다면, 이 변수는 GC가 될 가능성이 있을까요?
-  - Reference counting 방식과 이 알고리즘에서 발생할 수 있는 순환 참조(retain cycle)에 대해 설명하세요.
-- 기본 타입(Primitive type)과 참조 타입(Reference type)
-- Call by value와 Call by reference 차이
+- [가비지 콜렉터 (Garbage Collector, GC)](https://velog.io/@stemmmm/gc)
+- 기본 타입(Primitive type) vs 참조 타입(Reference type)
+- Call by value vs Call by reference
   - 각각의 개념과 그 차이에 대해 설명하세요.
   - 과연 모든 언어에 이 개념이 존재할까요?
 - `equals()`와 `hashcode()`
