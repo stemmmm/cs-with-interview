@@ -19,8 +19,8 @@
 
 # Java
 - [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
-- [자바 가상 머신 (Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
-- [가비지 컬렉션 (Garbage Collection, GC)](https://velog.io/@stemmmm/gc)
+- [자바 가상 머신(Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
+- [가비지 컬렉션(Garbage Collection, GC)](https://velog.io/@stemmmm/gc)
 - 기본 타입(Primitive type) vs 참조 타입(Reference type)
 - Call by value vs Call by reference
   - 각각의 개념과 그 차이에 대해 설명하세요.
@@ -33,17 +33,16 @@
   - 각각의 개념과 그 차이에 대해 설명하세요.
   - Interend String에 대해 설명하세요.
 - 업캐스팅과 다운캐스팅
-- 오토박싱과 오토언박싱
 - `static`
   - `static` 키워드가 붙은 변수나 함수는 어떻게 처리되나요?
   - 내부 클래스에서 `static` 키워드의 사용을 권장하는 이유를 설명해주세요.
 - `final`
   - `final` 키워드가 붙은 클래스의 메서드는 어떻게 동작하나요?
-- 래퍼(Wrapper) 클래스
+- [래퍼(Wrapper) 클래스](https://inpa.tistory.com/entry/JAVA-☕-wrapper-class-Boxing-UnBoxing#)
 - 접근 제어자 (Access modifier)
 - [예외 처리](https://www.nextree.co.kr/p3239)
 - Collection 프레임워크
-- 쓰레드 (Thread)
+- 쓰레드(Thread)
   - `Thread`의 활용 방법과 주의점에 대해 설명하세요. 
   - `ThreadLocal`에 대해 설명해 주세요. 
 - `synchronized`
@@ -58,28 +57,28 @@
   - Stream을 병렬처리 할 수 있나요?
   - Stream에서 사용할 수 있는 함수형 인터페이스에 대해 설명해 주세요.
   - 가끔 외부 변수를 사용할 때, `final` 키워드를 붙여서 사용하는데 왜 그럴까요? 꼭 그래야 할까요?
-- 직렬화 (Serialization)
-- 리플렉션 (Reflection)
+- 직렬화(Serialization)
+- 리플렉션(Reflection)
     - 리플렉션의 개념과 사용법에 대해 설명하세요.
     - 의미만 들어보면 리플렉션은 보안적인 문제가 있을 가능성이 있어보이는데, 실제로 그렇게 생각하시나요? 만약 그렇다면, 어떻게 방지할 수 있을까요?
     - 리플렉션을 언제 활용할 수 있을까요?
-- 어노테이션 (Annotation)
+- 어노테이션(Annotation)
   - 자바에서 어노테이션은 어떤 기능을 하나요?
   - 별 기능이 없는 것 같은데, 어떻게 Spring에서는 어노테이션이 그렇게 많은 기능을 하는 걸까요?
   - Lombok의 @Data를 잘 사용하지 않는 이유는 무엇일까요?
 - 인터페이스와 추상 클래스의 차이
-- 제네릭(Generic)의 개념과 사용법
-- 레코드 (Record)
+- 제네릭(Generic)
+- 레코드(Record)
 
 <br>
 
 # 프로그래밍 일반
 - [프로그래밍 패러다임](https://velog.io/@stemmmm/프로그래밍-패러다임)
-  - [객체 지향 프로그래밍 (Object-Oriented Programming, OOP)](https://velog.io/@stemmmm/oop)
+  - [객체 지향 프로그래밍(Object-Oriented Programming, OOP)](https://velog.io/@stemmmm/oop)
     - [SOLID](https://velog.io/@stemmmm/solid)
     - Composition의 개념과 활용 방법
     - 왜 클래스는 단일 상속만 가능한데, 인터페이스는 2개 이상 구현이 가능할까요?
-  - 함수형 프로그래밍 (Functional Programming)
+  - 함수형 프로그래밍(Functional Programming)
     - 순수 함수와 함수형 프로그래밍 매커니즘의 연관성에 대해 설명하세요.
     - Side-effect가 무엇인가요? 이를 모두 없애는 프로그래밍이 이상적이라고 할 수 있을까요?
     - 왜 함수형 프로그래밍 매커니즘을 사용할까요?
@@ -90,9 +89,9 @@
 - Blocking과 Non-blocking의 차이
   - Blocking과 Non-blocking I/O
 - Synchronous와 Asynchronous의 차이
-- TDD (Test Driven Development)
+- TDD(Test Driven Development)
 - 애자일 소프트웨어 개발
-- 데브옵스 (DevOps)
+- 데브옵스(DevOps)
 - Git과 GitHub
 - 가상화와 가상 머신
   - 가상화와 가상 머신의 차이를 설명하세요.
@@ -101,7 +100,7 @@
   - 도커 위에 도커를 올릴 순 없을까요?
 - 인증과 인가의 차이
   - OAuth에 대해 설명하세요.
-- JWT (JSON Web Token)
+- JWT(JSON Web Token)
   - JWT 인증 방식에 대해 설명하세요.
   - Signature는 어떻게 만들어지나요?
   - 만약 access token이 탈취되면, 어떻게 대응해야 할까요?
@@ -113,7 +112,7 @@
 # 컴퓨터구조
 - 폰 노이만 구조
 - 컴퓨터의 구성 요소
-- 중앙 처리 장치 (CPU)
+- 중앙 처리 장치(CPU)
   - 32비트와 64비트 컴퓨터의 차이는 무엇인가요?
   - 32비트와 64비트 컴퓨터에서 사용할 수 있는 메모리의 최대 크기는 얼마인가요? 왜 그런건가요?
   - CPU의 작동 원리에 대해 설명하세요.
@@ -128,7 +127,7 @@
   - Big-O, Big-Theta, Big-Omega 표기법에 대해 설명하세요.
   - 다른 표기법 사용하지 않고, Big-O를 사용하는 이유가 있을까요?
   - O(1)은 O(n^2)보다 무조건 빠른가요?
-- 배열 (Array)
+- 배열(Array)
 - ArrayList vs 배열
 - 연결 리스트 (Linked List)
   - 연결 리스트를 배열과 비교하며 설명하세요.
@@ -140,14 +139,14 @@
   - 시간 복잡도를 유지하면서, 배열로 스택과 큐를 구현할 수 있을까요?
   - Prefix, infix, postfix 표기법에 대해 설명하고, 이를 스택을 활용하여 계산하는 방법에 대해 설명하세요.
   - 덱(Deque)은 어떻게 구현할 수 있을까요?
-- 그래프 (Graph)
+- 그래프(Graph)
   - 그래프의 개념과 2가지 구현법에 대해 설명하세요.
   - 각 방법에 대해, 두 정점이 연결되었는지 확인하는 시간 복잡도와 한 정점에 연결된 모든 정점을 찾는 시간 복잡도를 비교하세요. 추가로, 공간 복잡도를 비교하세요.
   - 정점의 개수가 n개, 간선의 개수가 n^3개인 그래프는 어떤 방식으로 구현하는 것이 효율적일까요?
   - 탐색
     - 그래프에서 최단거리를 구하는 방법에 대해 설명해 주세요.
     - 정점의 개수가 n개, 간선의 개수가 n^3 개라면, 어떤 알고리즘으로 그래프를 탐색하는 것이 효율적일까요?
-- 트리 (Tree)
+- 트리(Tree)
   - 그래프와 트리의 차이를 설명하세요.
   - 사이클이 없는 그래프는 모두 트리인가요? 그렇지 않다면, 예시를 들어주세요.
   - 이진탐색트리 (Binary Search Tree, BST)
@@ -161,18 +160,18 @@
     - 레드-블랙 트리의 균형 유지 방법에 대해 설명하세요.
     - 레드-블랙 트리의 주요 성질 4가지에 대해 설명하세요.
     - 2-3-4 트리, AVL 트리 등의 다른 BBST가 있음에도, 왜 레드-블랙 트리가 많이 사용될까요?
-- 힙 (Heap)
+- 힙(Heap)
   - 힙을 배열로 구현한다고 가정하면, 어떻게 값을 저장할 수 있을까요?
   - 힙의 삽입, 삭제 방식에 대해 설명하고, 왜 이진 탐색 트리와 달리 편향이 발생하지 않는지 설명하세요.
   - 힙 정렬의 시간 복잡도는 어떻게 되나요? Stable한가요?
-- 해시 (Hash)
+- 해시(Hash)
   - 값이 주어졌을 때, 어떻게 하면 충돌이 최대한 적은 해시 함수를 설계할 수 있을까요?
   - 해시 값이 충돌했을 때, 어떤 방식으로 처리할 수 있을까요?
   - 본인이 사용하는 언어에서는, 어떤 방식으로 해시 충돌을 처리하나요?
   - Double hashing 의 장점과 단점에 대해서 설명하고, 단점을 어떻게 해결할 수 있을지 설명하세요.
   - Load factor에 대해 설명하세요. 본인이 사용하는 언어에서의 해시 자료구조는 load factor에 관련한 정책이 어떻게 구성되어 있나요?
   - 다른 자료구조와 비교하여, 해시 테이블은 멀티스레드 환경에서 심각한 수준의 race condition 문제에 빠질 위험이 있습니다. 성능 감소를 최소화 한 채로 해당 문제를 해결할 수 있는 방법을 설명하세요.
-- 트라이 (Trie)
+- 트라이(Trie)
 - Thread-safety
   - Thread-safe한 자료구조가 있을까요? 없다면, 어떻게 thread-safe한 자료구조를 만들 수 있을까요? 
   - 배열의 길이를 알고 있다면, 조금 더 빠른 Thread Safe 한 연산을 만들 순 없을까요?
@@ -182,10 +181,10 @@
 
 # 알고리즘
 - DFS와 BFS
-- 재귀 (Recursion)
+- 재귀(Recursion)
   - 재귀 함수의 동작 과정을 콜 스택과 함께 설명하세요.
   - 언어의 스펙에 따라, 재귀 함수의 최적화를 진행해주는 경우가 있습니다. 어떤 경우에 재귀함수의 최적화가 가능하며, 그 원리를 설명해주세요.
-- 정렬 (Sort)
+- 정렬(Sort)
   - 거품 정렬(Bubble sort), 선택 정렬(Selection sort), 삽입 정렬(Insertion sort)
     - Bubble, selection, insertion sort의 속도를 비교하세요.
     - 값이 거의 정렬되어 있거나 완전히 정렬되어 있다면, 위 세 알고리즘의 속도 비교 결과는 달라질까요?
@@ -198,10 +197,10 @@
   - Stable sort가 무엇이고, 위 모든 정렬 알고리즘 중 어떤 것이 stable 한지 설명하세요.
   - 본인이 사용하고 있는 언어에서 제공하는 정렬 함수의 정렬 알고리즘을 설명하세요.
   - 정렬해야 하는 데이터는 50G 인데, 메모리가 4G뿐이라면, 어떤 방식을 사용해 정렬할 수 있을까요?
-- 동적 계획법 (Dynamic Programming)
+- 동적 계획법(Dynamic Programming)
   - 그리디 알고리즘과 동적 계획법을 비교하고, 어떤 경우에 각각의 기법을 사용하는지 설명하세요.
   - 동적 계획법으로 풀 수 있는 모든 문제는 재귀로 변환하여 풀 수 있나요?
-- 이진 탐색 (Binary Search)
+- 이진 탐색(Binary Search)
   - Lower bound와 Upper bound 는 무엇이고, 이를 어떻게 구현할 수 있을까요?
   - 이진 탐색의 논리를 적용하여 삼진 탐색을 작성한다고 가정한다면, 시간 복잡도는 어떻게 달라질까요? (실제 존재하는 삼진탐색 알고리즘 무시하세요)
   - 기존 이진 탐색 로직에서 부등호의 범위가 바뀐다면, (e.g. <=를 <로) 결과가 달라질까요? 달라진다면 어떻게 달라질까요?
@@ -292,11 +291,11 @@
     - HOL blocking에 대해 설명해 주세요.
   - HTTP/3.0의 주요 특징에 대해 설명해 주세요.
     - 왜 HTTP/3 에서는 UDP를 사용하나요? 위에서 언급한 UDP의 문제가 해결되었나요?  
-  - 상태 코드 (Status Code)
+  - 상태 코드(Status Code)
     - 401 Unauthorized 와 403 Forbidden은 의미적으로 어떤 차이가 있나요?
     - 200 OK 와 201 Created의 차이에 대해 설명하세요.
     - 필요하다면 우리가 응답코드를 직접 정의해서 사용할 수 있을까요?
-  - 메서드 [Method)
+  - 메서드(Method)
     - HTTP 메서드의 멱등성에 대해 설명하세요.
     - GET과 POST의 차이에 대해 설명하세요.
     - POST와 PUT, PATCH의 차이에 대해 설명하세요.
@@ -335,7 +334,7 @@
   - SOP 정책에 대해 설명하세요.
   - CORS 정책이 무엇인가요?
   - Preflight에 대해 설명하세요.
-- 로드 밸런싱 (Load Balancing)
+- 로드 밸런싱(Load Balancing)
   - 로드밸런서는 무엇인가요?
   - 로드 밸런싱의 개념과 기술, 그리고 그 구현 방법에 대해 설명하세요.
   - L4 로드밸런서와, L7 로드밸런서의 차이에 대해 설명해 주세요.
@@ -350,10 +349,10 @@
 <br>
 
 # 데이터베이스
-- 스키마 (Schema)
+- 스키마(Schema)
   - 스키마에 대해 설명하세요.
   - 스키마의 3계층에 대해 설명하세요.
-- 키 (Key)
+- 키(Key)
   - 키(기본키, 후보키, 슈퍼키 등)에 대해 설명하세요.
   - 기본키는 수정이 가능한가요?
   - MySQL의 경우, 기본키를 설정하지 않아도 테이블이 만들어집니다. 어떻게 이게 가능한 걸까요?
@@ -368,13 +367,13 @@
 - SQL Injection
   - SQL injection에 대해 설명하세요.
   - 그렇다면, 우리가 서버 개발 과정에서 사용하는 수많은 DB 라이브러리들은 이 문제를 어떻게 해결할까요?
-- 정규화 (Normalization)
+- 정규화(Normalization)
   - 정규화의 개념과 종류에 대해 설명하세요.
   - 정규화의 장점과 단점에 대해 설명하세요.
   - 정규화를 하지 않을 경우 발생할 수 있는 이상현상(anomaly)에 대해 설명하세요.
   - 각 정규화에 대해, 그 정규화가 진행되기 전/후의 테이블의 변화에 대해 설명하세요.
   - 정규화가 무조건 좋은가요? 그렇지 않다면, 어떤 상황에서 역정규화를 하는게 좋은지 설명하세요.
-- 인덱스 (Index)
+- 인덱스(Index)
   - 인덱스가 무엇이고, 언제 사용하는지 설명하세요.
   - 인덱스가 사용하는 자료구조에 대해 설명하세요.
     - DB에서 RBT를 사용하지 않고, B-Tree/B+Tree를 사용하는 이유를 설명하세요.
@@ -392,7 +391,7 @@
   - Table full scan, index range ccan에 대해 설명하세요.
     - 가끔은 인덱스를 타는 쿼리임에도 table full scan 방식으로 동작하는 경우가 있습니다. 왜 그럴까요?
   - 개수를 세는 쿼리인 COUNT는 어떻게 동작하나요? COUNT(1), COUNT(*), COUNT(column)의 동작 과정에는 차이가 있나요?
-- 트랜잭션 (Transaction)
+- 트랜잭션(Transaction)
   - 트랜잭션의 개념과 ACID 원칙에 대해 설명하세요.
   - ACID 원칙 중, DBMS는 durability를 어떻게 보장하나요?
   - 트랜잭션과 lock에 대해 설명하세요.
@@ -402,10 +401,10 @@
     - 트랜잭션 격리 레벨에 대해 설명하세요.
     - 모든 DBMS가 4개의 레벨을 모두 구현하고 있나요? 그렇지 않다면 그 이유는 무엇일까요?
     - 스토리지 엔진은 정확히 무엇을 하는 건가요?
-- 뷰 (View)
+- 뷰(View)
   - 뷰가 무엇이고, 어떤 경우에 사용하나요?
   - 그렇다면, 뷰의 값을 수정해도 실제 테이블에는 반영되지 않나요?
-- 저장 프로시저 (Stored procedure)
+- 저장 프로시저(Stored procedure)
 - 동적 SQL
 - DB Locking
   - Optimistic lock과 Pessimistic lock에 대해 설명하세요.
@@ -442,7 +441,7 @@
 <br>
 
 # Spring
-- 빈 (Bean)
+- 빈(Bean)
   - IoC와 DI에 대해 설명하세요.
   - 후보 없이 특정 기능을 하는 클래스가 딱 한 개라면, 구체 클래스를 그냥 사용해도 되지 않나요? 그럼에도 불구하고 왜 Spring에선 Bean을 사용 할까요?
   - Spring의 Bean 생성 주기에 대해 설명하세요.
