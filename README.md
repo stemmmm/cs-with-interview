@@ -41,11 +41,7 @@
   - `final` 키워드가 붙은 클래스의 메서드는 어떻게 동작하나요?
 - 래퍼(Wrapper) 클래스
 - 접근 제어자 (Access modifier)
-- 예외 처리
-  - `Exception`에 대해 설명해 주세요.
-  - 예외를 처리하는 세 가지 방법에 대해 설명해 주세요.
-  - `CheckedException`, `UncheckedException`의 차이에 대해 설명해 주세요.
-  - 예외 처리가 성능에 큰 영향을 미치나요? 만약 그렇다면, 어떻게 하면 부하를 줄일 수 있을까요?
+- [예외 처리](https://www.nextree.co.kr/p3239)
 - Collection 프레임워크
 - 쓰레드 (Thread)
   - `Thread`의 활용 방법과 주의점에 대해 설명하세요. 
