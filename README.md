@@ -67,7 +67,8 @@
   - 별 기능이 없는 것 같은데, 어떻게 Spring에서는 어노테이션이 그렇게 많은 기능을 하는 걸까요?
   - Lombok의 @Data를 잘 사용하지 않는 이유는 무엇일까요?
 - 인터페이스와 추상 클래스의 차이
-- 제네릭(Generic)
+- [제네릭(Generic)](https://dev.gmarket.com/12)
+  - [Type erasure](https://dev.gmarket.com/28)
 - 레코드(Record)
 
 <br>
