@@ -43,7 +43,7 @@
 - [예외 처리](https://www.nextree.co.kr/p3239)
 - Collection 프레임워크
   - [List](https://youtu.be/xvi-n11kym0?si=hrrp0Gp1sMtpqUBr)
-  - [Map](ttps://youtu.be/ZBu_slSH5Sk?si=gynzgQ5bfDM-8F_X)
+  - [Map](https://youtu.be/ZBu_slSH5Sk?si=gynzgQ5bfDM-8F_X)
   - [Set](https://youtu.be/IkImFugfFQk?si=um8MLIsSuSvVXO28)
   - [HashMap 동작원리](https://d2.naver.com/helloworld/831311)
   - [HashSet과 `equals()`, `hashcode()`의 상관관계](https://youtu.be/Dmo3sG-ZFTw?si=aEElbcjDgOp2gLM_)
