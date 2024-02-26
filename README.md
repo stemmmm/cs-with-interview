@@ -25,9 +25,9 @@
 - Call by value vs Call by reference
   - 각각의 개념과 그 차이에 대해 설명하세요.
   - 과연 모든 언어에 이 개념이 존재할까요?
-- `equals()`와 `hashcode()`
+- `equals()`와 `hashCode()`
   - 각각의 메서드가 어떤 역할을 하는지, 그리고 두 메서드의 관계에 대해 설명하세요.
-  - `hashcode()`를 직접 정의해야 한다면, 어떤 점을 염두에 두고 구현 하실건가요?
+  - `hashCode()`를 직접 정의해야 한다면, 어떤 점을 염두에 두고 구현 하실건가요?
   - `equals()`를 재정의 해야 할 때, 어떤 점을 염두에 두어야 하는지 설명해 주세요.
 - `String` vs `StringBuffer` vs `StringBuilder`
   - 각각의 개념과 그 차이에 대해 설명하세요.
@@ -46,7 +46,7 @@
   - [Map](https://youtu.be/ZBu_slSH5Sk?si=gynzgQ5bfDM-8F_X)
   - [Set](https://youtu.be/IkImFugfFQk?si=um8MLIsSuSvVXO28)
   - [HashMap 동작원리](https://d2.naver.com/helloworld/831311)
-  - [HashSet과 `equals()`, `hashcode()`의 상관관계](https://youtu.be/Dmo3sG-ZFTw?si=aEElbcjDgOp2gLM_)
+  - [Map과 `equals()`, `hashCode()`의 상관관계](https://youtu.be/Dmo3sG-ZFTw?si=aEElbcjDgOp2gLM_)
   - [Synchronized Collection vs Concurrent Collection](https://steady-coding.tistory.com/575)
 - 쓰레드(Thread)
   - `Thread`의 활용 방법과 주의점에 대해 설명하세요. 
