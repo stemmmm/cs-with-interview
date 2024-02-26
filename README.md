@@ -42,6 +42,12 @@
 - 접근 제어자 (Access modifier)
 - [예외 처리](https://www.nextree.co.kr/p3239)
 - Collection 프레임워크
+  - [List](https://youtu.be/xvi-n11kym0?si=hrrp0Gp1sMtpqUBr)
+  - [Map](ttps://youtu.be/ZBu_slSH5Sk?si=gynzgQ5bfDM-8F_X)
+  - [Set](https://youtu.be/IkImFugfFQk?si=um8MLIsSuSvVXO28)
+  - [HashMap 동작원리](https://d2.naver.com/helloworld/831311)
+  - [HashSet과 `equals()`, `hashcode()`의 상관관계](https://youtu.be/Dmo3sG-ZFTw?si=aEElbcjDgOp2gLM_)
+  - [Synchronized Collection vs Concurrent Collection](https://steady-coding.tistory.com/575)
 - 쓰레드(Thread)
   - `Thread`의 활용 방법과 주의점에 대해 설명하세요. 
   - `ThreadLocal`에 대해 설명해 주세요. 
@@ -68,6 +74,7 @@
   - Lombok의 @Data를 잘 사용하지 않는 이유는 무엇일까요?
 - 인터페이스와 추상 클래스의 차이
 - [제네릭(Generic)](https://dev.java/learn/generics/)
+  - [Heap pollution](https://inpa.tistory.com/entry/JAVA-☕-제네릭-힙-오염-Heap-Pollution-이란) 
 - 레코드(Record)
 
 <br>
@@ -215,6 +222,10 @@
 - 단기, 중기, 장기 스케줄러
 - CPU 스케줄링 알고리즘
 - [동기화](https://velog.io/@stemmmm/series/동기화)
+  - [Critical Section과 Race Condition](https://velog.io/@stemmmm/Critical-Section과-Race-Condition)
+  - [Mutex Lock과 Semaphore](https://velog.io/@stemmmm/Mutex-Lock과-Semaphore)
+  - [Monitor와 Java의 synchronized 키워드](https://velog.io/@stemmmm/Monitor와-Java의-synchronized-키워드)
+  - [Deadlock](https://velog.io/@stemmmm/Deadlock)
 - 메모리 관리 전략
 - 가상 메모리
 - 파일 시스템
