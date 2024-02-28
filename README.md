@@ -89,7 +89,8 @@
     - 왜 함수형 프로그래밍 매커니즘을 사용할까요?
     - 순수 함수는 thread-safe 한가요? 그렇다면 왜 그럴까요?
     - 고차 함수에 대해 설명하세요.
-- 프레임워크와 라이브러리의 차이점
+- 프레임워크 vs 라이브러리
+  - IoC의 관점에서 프레임워크와 라이브러리의 차이를 설명하세요.  
 - RESTful API
 - Blocking과 Non-blocking의 차이
   - Blocking과 Non-blocking I/O
