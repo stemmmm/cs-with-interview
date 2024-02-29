@@ -300,8 +300,8 @@
   - HTTP/3.0의 주요 특징에 대해 설명해 주세요.
     - 왜 HTTP/3 에서는 UDP를 사용하나요? 위에서 언급한 UDP의 문제가 해결되었나요?  
   - 상태 코드(Status Code)
-    - 401 Unauthorized 와 403 Forbidden은 의미적으로 어떤 차이가 있나요?
-    - 200 OK 와 201 Created의 차이에 대해 설명하세요.
+    - 401 Unauthorized vs 403 Forbidden
+    - 200 OK vs 201 Created
     - 필요하다면 우리가 응답코드를 직접 정의해서 사용할 수 있을까요?
   - 메서드(Method)
     - HTTP 메서드의 멱등성에 대해 설명하세요.
