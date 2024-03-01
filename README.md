@@ -451,9 +451,9 @@
 
 # Spring
 - [IoC와 DI](https://velog.io/@stemmmm/IoC와-DI)
-- JSP
+- Servlet과 JSP
+  - 내부 동작 원리를 설명하세요. 
 - 빈(Bean)
-  - 후보 없이 특정 기능을 하는 클래스가 딱 한 개라면, 구체 클래스를 그냥 사용해도 되지 않나요? 그럼에도 불구하고 왜 Spring에선 Bean을 사용 할까요?
   - Spring Bean 주입 방법
   - Spring Bean scope
 - MVC
