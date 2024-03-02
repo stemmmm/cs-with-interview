@@ -463,7 +463,7 @@
   - DispatcherServlet의 역할에 대해 설명하세요.
   - 여러 요청이 들어온다고 가정할 때, DispatcherServlet은 한번에 여러 요청을 모두 받을 수 있나요?
   - 수많은 @Controller 를 DispatcherServlet은 어떻게 구분할까요?
-- Interceptor와 Servlet filter
+- Servlet filter vs Interceptor
   - Interceptor와 Servlet filter에 대해 설명하세요.
   - 설명만 들어보면 인터셉터만 쓰는게 나아보이는데, 아닌가요? 필터는 어떤 상황에 사용해야 하나요?
 - JPA
