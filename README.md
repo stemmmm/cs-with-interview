@@ -340,7 +340,7 @@
   - 사용자의 요청이 무수히 많아지면, 소켓도 그에 비례하요 무수히 많이 생성되나요?
 - SOP
   - SOP 정책에 대해 설명하세요.
-  - CORS 정책이 무엇인가요?
+  - [CORS 정책이 무엇인가요?](https://docs.tosspayments.com/resources/glossary/cors)
   - Preflight에 대해 설명하세요.
 - 로드 밸런싱(Load Balancing)
   - 로드밸런서는 무엇인가요?
