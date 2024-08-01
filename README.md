@@ -1,19 +1,16 @@
-# cs-with-interview-questions
-- 기술 면접 질문으로 컴퓨터공학 지식을 깊이있게 학습하는 스터디입니다.
-- 기술 면접 질문이 정리된 여러 리포지토리들을 종합하여 학습합니다.
+# tech-interview-study
+- 기술 면접 대비를 위한 스터디입니다.
+- 기술 면접을 대비하며 자연스럽게 깊이있는 컴퓨터공학 지식을 습득합니다.
+- 기술 면접 질문이 정리된 여러 리포지토리들을 기반으로 진행합니다.
+  - https://github.com/JaeYeopHan/Interview_Question_for_Beginner
+  - https://github.com/gyoogle/tech-interview-for-developer
+  - https://github.com/VSFe/Tech-Interview
 
 <br>
 
 ## 진행방식
 1. 매주 정해진 주제에 대해 학습하고, 정리한 내용을 공유합니다.
 2. 주 1회 모의 면접을 통해 공부한 내용 검증합니다.
-
-<br>
-
-## 출처
-- https://github.com/JaeYeopHan/Interview_Question_for_Beginner
-- https://github.com/gyoogle/tech-interview-for-developer
-- https://github.com/VSFe/Tech-Interview 
 
 <br>
 
@@ -25,7 +22,7 @@
 - [운영체제](#운영체제)
 - [네트워크](#네트워크)
 - [데이터베이스](#데이터베이스)
-- [디자인 패턴](#디자인-패턴)
+- [디자인패턴](#디자인패턴)
 
 <br>
 
@@ -381,7 +378,7 @@
 
 <br>
 
-## 디자인 패턴
+## 디자인패턴
 - 디자인 패턴의 개념
 - 싱글톤 패턴
   - 싱글톤의 장단점에 대해 설명해 주세요.
