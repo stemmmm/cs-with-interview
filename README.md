@@ -14,7 +14,7 @@
 
 ### 공부 방법
 - 주제에 대해 끊임없는 질문을 던지며 공부합니다.
-- 질문할 목록을 정리해옵니다.
+- 상대방에게 질문할 목록을 정리해옵니다.
 
 <br>
 
@@ -31,37 +31,14 @@
 <br>
 
 ## 프로그래밍
-- [프로그래밍 패러다임](https://velog.io/@stemmmm/프로그래밍-패러다임)
-  - [객체 지향 프로그래밍(Object-Oriented Programming, OOP)](https://velog.io/@stemmmm/oop)
-    - [SOLID](https://velog.io/@stemmmm/solid)
-    - Composition의 개념과 활용 방법
-    - 왜 클래스는 단일 상속만 가능한데, 인터페이스는 2개 이상 구현이 가능할까요?
-  - 함수형 프로그래밍(Functional Programming)
-    - 순수 함수와 함수형 프로그래밍 매커니즘의 연관성에 대해 설명하세요.
-    - Side-effect가 무엇인가요? 이를 모두 없애는 프로그래밍이 이상적이라고 할 수 있을까요?
-    - 왜 함수형 프로그래밍 매커니즘을 사용할까요?
-    - 순수 함수는 thread-safe 한가요? 그렇다면 왜 그럴까요?
-    - 고차 함수에 대해 설명하세요.
-- [프레임워크 vs 라이브러리](https://github.com/stemmmm/interview-questions?tab=readme-ov-file)
+
+- 프레임워크 vs 라이브러리
+- 객체 지향 프로그래밍
 - RESTful API
-- Blocking vs Non-blocking I/O
-- Synchronous와 Asynchronous의 차이
-- TDD(Test Driven Development)
-- 애자일 소프트웨어 개발
-- 데브옵스(DevOps)
-- Git과 GitHub
 - 가상화와 가상 머신
-  - 가상화와 가상 머신의 차이를 설명하세요.
-  - 그렇다면 도커(Docker)는 둘 중 어디에 속하나요? 왜 사람들이 도커를 많이 채택할까요?
-  - 하나의 Host OS에서 돌아간다면, 한 컨테이너가 다른 컨테이너에 간섭할 수 있는 위험이 있지 않을까요? 이를 어떻게 방어할 수 있을까요?
-  - 도커 위에 도커를 올릴 순 없을까요?
 - 인증 vs 인가
 - OAuth
-- JWT(JSON Web Token)
-  - JWT 인증 방식에 대해 설명하세요.
-  - Signature는 어떻게 만들어지나요?
-  - 만약 access token이 탈취되면, 어떻게 대응해야 할까요?
-  - 반대로 refresh token이 탈취되면, 어떻게 대응해야 할까요?
+- JWT
 - Base64 인코딩
 
 <br>
@@ -166,6 +143,8 @@
 <br>
 
 ## 운영체제
+- Blocking I/O vs Non-blocking I/O
+- Synchronous vs Asynchronous
 - 시스템 콜
 - 프로세스 vs 쓰레드
 - 프로세스 주소 공간
