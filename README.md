@@ -1,11 +1,24 @@
-# interview-questions
-기술 면접 대비를 위한 아카이브입니다.
+# cs-with-interview-questions
+- 기술 면접 질문으로 컴퓨터공학 지식을 깊이있게 학습하는 스터디입니다.
+- 기술 면접 질문이 정리된 여러 리포지토리들을 종합하여 학습합니다.
 
 <br>
 
-# 목차
-- [Java](#Java)
-- [프로그래밍 일반](#프로그래밍-일반)
+## 진행방식
+1. 매주 정해진 주제에 대해 학습하고, 정리한 내용을 공유합니다.
+2. 주 1회 모의 면접을 통해 공부한 내용 검증합니다.
+
+<br>
+
+## 출처
+- https://github.com/JaeYeopHan/Interview_Question_for_Beginner
+- https://github.com/gyoogle/tech-interview-for-developer
+- https://github.com/VSFe/Tech-Interview 
+
+<br>
+
+## 목차
+- [프로그래밍](#프로그래밍)
 - [컴퓨터구조](#컴퓨터구조)
 - [자료구조](#자료구조)
 - [알고리즘](#알고리즘)
@@ -13,71 +26,10 @@
 - [네트워크](#네트워크)
 - [데이터베이스](#데이터베이스)
 - [디자인 패턴](#디자인-패턴)
-- [Spring](#Spring)
 
 <br>
 
-# Java
-- [자바의 컴파일 과정](https://velog.io/@stemmmm/자바의-플랫폼-독립성)
-- [자바 가상 머신(Java Virtual Machine, JVM)](https://velog.io/@stemmmm/jvm)
-- [가비지 컬렉션(Garbage Collection, GC)](https://velog.io/@stemmmm/gc)
-- 기본 타입(Primitive type) vs 참조 타입(Reference type)
-- Call by value vs Call by reference
-  - 각각의 개념과 그 차이에 대해 설명하세요.
-  - 과연 모든 언어에 이 개념이 존재할까요?
-- `equals()`와 `hashCode()`
-  - 각각의 메서드가 어떤 역할을 하는지, 그리고 두 메서드의 관계에 대해 설명하세요.
-  - `hashCode()`를 직접 정의해야 한다면, 어떤 점을 염두에 두고 구현 하실건가요?
-  - `equals()`를 재정의 해야 할 때, 어떤 점을 염두에 두어야 하는지 설명해 주세요.
-- `String` vs `StringBuffer` vs `StringBuilder`
-  - 각각의 개념과 그 차이에 대해 설명하세요.
-  - Interend String에 대해 설명하세요.
-- 업캐스팅과 다운캐스팅
-- `static`
-  - `static` 키워드가 붙은 변수나 함수는 어떻게 처리되나요?
-  - 내부 클래스에서 `static` 키워드의 사용을 권장하는 이유를 설명해주세요.
-- `final`
-  - `final` 키워드가 붙은 클래스의 메서드는 어떻게 동작하나요?
-- [래퍼(Wrapper) 클래스](https://inpa.tistory.com/entry/JAVA-☕-wrapper-class-Boxing-UnBoxing#)
-- 접근 제어자 (Access modifier)
-- [예외 처리](https://www.nextree.co.kr/p3239)
-- Collection 프레임워크
-  - [List](https://youtu.be/xvi-n11kym0?si=hrrp0Gp1sMtpqUBr)
-  - [Map](https://youtu.be/ZBu_slSH5Sk?si=gynzgQ5bfDM-8F_X)
-  - [Set](https://youtu.be/IkImFugfFQk?si=um8MLIsSuSvVXO28)
-  - [HashMap 동작원리](https://d2.naver.com/helloworld/831311)
-  - [Map과 `equals()`, `hashCode()`의 상관관계](https://youtu.be/Dmo3sG-ZFTw?si=aEElbcjDgOp2gLM_)
-  - [Synchronized Collection vs Concurrent Collection](https://steady-coding.tistory.com/575)
-- 쓰레드(Thread)
-  - `Thread`의 활용 방법과 주의점에 대해 설명하세요. 
-  - `ThreadLocal`에 대해 설명해 주세요. 
-- [`synchronized`](https://velog.io/@stemmmm/Monitor와-Java의-synchronized-키워드)
-  - 효율적인 코드 작성 측면에서, `synchronized`는 좋은 키워드일까요?
-  - `synchronized`를 대체할 수 있는 자바의 다른 동기화 기법에 대해 설명하세요.
-- Stream API와 람다식
-  - Stream API의 개념과 활용법에 대해 설명하세요.
-  - 람다식의 개념과 사용법에 대해 설명하세요.
-  - Stream과 for문의 성능을 비교하세요.
-  - Stream을 병렬처리 할 수 있나요?
-  - Stream에서 사용할 수 있는 함수형 인터페이스에 대해 설명해 주세요.
-  - 가끔 외부 변수를 사용할 때, `final` 키워드를 붙여서 사용하는데 왜 그럴까요? 꼭 그래야 할까요?
-- 직렬화(Serialization)
-- 리플렉션(Reflection)
-    - 리플렉션의 개념과 사용법에 대해 설명하세요.
-    - 의미만 들어보면 리플렉션은 보안적인 문제가 있을 가능성이 있어보이는데, 실제로 그렇게 생각하시나요? 만약 그렇다면, 어떻게 방지할 수 있을까요?
-    - 리플렉션을 언제 활용할 수 있을까요?
-- 어노테이션(Annotation)
-  - 자바에서 어노테이션은 어떤 기능을 하나요?
-  - 별 기능이 없는 것 같은데, 어떻게 Spring에서는 어노테이션이 그렇게 많은 기능을 하는 걸까요?
-  - Lombok의 @Data를 잘 사용하지 않는 이유는 무엇일까요?
-- 인터페이스와 추상 클래스의 차이
-- [제네릭(Generic)](https://dev.java/learn/generics/)
-  - [Heap pollution](https://inpa.tistory.com/entry/JAVA-☕-제네릭-힙-오염-Heap-Pollution-이란) 
-- 레코드(Record)
-
-<br>
-
-# 프로그래밍 일반
+## 프로그래밍
 - [프로그래밍 패러다임](https://velog.io/@stemmmm/프로그래밍-패러다임)
   - [객체 지향 프로그래밍(Object-Oriented Programming, OOP)](https://velog.io/@stemmmm/oop)
     - [SOLID](https://velog.io/@stemmmm/solid)
@@ -113,7 +65,7 @@
 
 <br>
 
-# 컴퓨터구조
+## 컴퓨터구조
 - 폰 노이만 구조
 - 컴퓨터의 구성 요소
 - 중앙 처리 장치(CPU)
@@ -126,7 +78,7 @@
 
 <br>
 
-# 자료구조
+## 자료구조
 - 시간 복잡도와 공간 복잡도
   - Big-O, Big-Theta, Big-Omega 표기법에 대해 설명하세요.
   - 다른 표기법 사용하지 않고, Big-O를 사용하는 이유가 있을까요?
@@ -183,7 +135,7 @@
  
 <br>
 
-# 알고리즘
+## 알고리즘
 - DFS와 BFS
 - 재귀(Recursion)
   - 재귀 함수의 동작 과정을 콜 스택과 함께 설명하세요.
@@ -212,7 +164,7 @@
 
 <br>
 
-# 운영체제
+## 운영체제
 - 시스템 콜
 - 프로세스 vs 쓰레드
 - 프로세스 주소 공간
@@ -230,7 +182,7 @@
 
 <br>
 
-# 네트워크
+## 네트워크
 - www.google.com 을 브라우저에 입력했을 때 일어나는 일
 - 웹 서버와 웹 애플리케이션 서버의 차이
 - URL, URI, URN의 차이
@@ -356,7 +308,7 @@
 
 <br>
 
-# 데이터베이스
+## 데이터베이스
 - 스키마(Schema)
   - 스키마에 대해 설명하세요.
   - 스키마의 3계층에 대해 설명하세요.
@@ -429,7 +381,7 @@
 
 <br>
 
-# 디자인 패턴
+## 디자인 패턴
 - 디자인 패턴의 개념
 - 싱글톤 패턴
   - 싱글톤의 장단점에 대해 설명해 주세요.
@@ -441,44 +393,3 @@
 - 옵저버 패턴
 - 스트레티지 패턴
 - 컴포지트 패턴
-
-<br>
-
-# Spring
-- [IoC와 DI](https://velog.io/@stemmmm/IoC와-DI)
-- Servlet과 JSP
-  - 내부 동작 원리를 설명하세요. 
-- 빈(Bean)
-  - Spring Bean 주입 방법
-  - Spring Bean scope
-- MVC
-  - MVC1 vs MVC2 vs Spring MVC
-  - MVC 패턴을 다른 아키텍처 패턴과 비교하며 설명하세요.
-- DispatcherServlet
-  - DispatcherServlet의 역할에 대해 설명하세요.
-  - 여러 요청이 들어온다고 가정할 때, DispatcherServlet은 한번에 여러 요청을 모두 받을 수 있나요?
-  - 수많은 @Controller 를 DispatcherServlet은 어떻게 구분할까요?
-- Servlet filter vs Interceptor
-  - Interceptor와 Servlet filter에 대해 설명하세요.
-  - 설명만 들어보면 인터셉터만 쓰는게 나아보이는데, 아닌가요? 필터는 어떤 상황에 사용해야 하나요?
-- AOP
-  - AOP에 대해 설명하세요. 
-  - @Aspect는 어떻게 동작하나요?
-- @Transactional
-  - @Transactional 은 어떤 기능을 하나요? 
-  - @Transactional(readonly=true)는 어떤 기능인가요? 이게 도움이 되나요?
-  - 그런데, 읽기에 트랜잭션을 걸 필요가 있나요? @Transactional을 안 붙이면 되는거 아닐까요?
-- JPA
-  - JPA와 같은 ORM을 사용하는 이유가 무엇인가요?
-  - 영속성은 어떤 기능을 하나요? 이게 진짜 성능 향상에 큰 도움이 되나요?
-  - N + 1 문제에 대해 설명하세요.
-- Tomcat
-  - Tomcat은 정확히 어떤 역할을 하는 도구인가요? 
-  - 혹시 Netty에 대해 들어보셨나요? 왜 이런 것을 사용할까요?
- 
-<br>
-
-# 출처
-- https://github.com/JaeYeopHan/Interview_Question_for_Beginner
-- https://github.com/gyoogle/tech-interview-for-developer
-- https://github.com/VSFe/Tech-Interview
