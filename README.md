@@ -95,21 +95,21 @@
 <br>
 
 ## 운영체제
-- 시스템 콜과 인터럽트
 - 프로세스 vs 쓰레드
   - 프로세스 메모리 vs 쓰레드 메모리
   - 컨텍스트 스위칭(Context Switching)
-- 단기, 중기, 장기 스케줄러
 - 동기화
   - Critical Section과 Race Condition
   - Mutex Lock과 Semaphore
   - 모니터(Monitor)
   - 데드락(Deadlock)
-- 가상 메모리와 메모리 관리 전략
+- 프로세스 상태와 스케줄링
+- 시스템 콜과 인터럽트
 - 쓰레드 풀(Thread Pool)
-- 파일 시스템
+- 가상 메모리와 메모리 관리 전략
 - Blocking I/O vs Non-blocking I/O
 - 동기(Synchronous) vs 비동기(Asynchronous)
+- 파일 시스템
 
 <br>
 
@@ -136,7 +136,6 @@
 - 관계형 데이터베이스(Relational Database, RDB)
 - 스키마(Schema)
 - 키(Key)
-- 정규화(Normalization)
 - SQL
 - SQL Injection
 - SQL Join
@@ -148,6 +147,7 @@
   - 트랜잭션 격리 레벨 (Transaction Isolation Level)
   - 락(Lock)
   - Multi-Version Concurrency Control(MVCC)
+- 정규화(Normalization)
 - 커넥션 풀(Connection Pool)
 - 파티셔닝, 샤딩, 레플리케이션
 - NoSQL vs RDB
@@ -155,7 +155,6 @@
 <br>
 
 ## 디자인패턴
-- 디자인 패턴의 개념
 - 싱글톤 패턴
 - 어댑터 패턴
 - 탬플릿 메소드 패턴
