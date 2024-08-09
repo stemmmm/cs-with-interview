@@ -96,15 +96,13 @@
 
 ## 운영체제
 - 프로세스 vs 쓰레드
-  - 프로세스 메모리 vs 쓰레드 메모리
-  - 컨텍스트 스위칭(Context Switching)
-- 프로세스 상태와 스케줄링
+- 프로세스 상태와 CPU 스케줄링
+- 시스템 콜과 인터럽트
 - 동기화
   - Critical Section과 Race Condition
   - Mutex Lock과 Semaphore
   - 모니터(Monitor)
   - 데드락(Deadlock)
-- 시스템 콜과 인터럽트
 - 쓰레드 풀(Thread Pool)
 - 가상 메모리와 메모리 관리 전략
 - Blocking I/O vs Non-blocking I/O
@@ -114,15 +112,13 @@
 <br>
 
 ## 네트워크
-- OSI 7계층 vs TCP/IP 4계층
 - URL, URI, URN
-- TCP vs UDP
+- OSI 7계층 vs TCP/IP 4계층
+- 물리 계층과 데이터 링크 계층
+- 네트워크 계층
 - IP
-- 서브넷 마스크와 게이트웨이
-- DHCP
-- 라우터
-- HTTP
-- HTTPS
+- TCP와 UDP
+- 애플리케이션 계층(HTTP)
 - DNS
 - 쿠키 vs 세션
 - 웹소켓과 소켓 통신
