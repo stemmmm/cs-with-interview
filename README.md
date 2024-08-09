@@ -98,12 +98,12 @@
 - 프로세스 vs 쓰레드
   - 프로세스 메모리 vs 쓰레드 메모리
   - 컨텍스트 스위칭(Context Switching)
+- 프로세스 상태와 스케줄링
 - 동기화
   - Critical Section과 Race Condition
   - Mutex Lock과 Semaphore
   - 모니터(Monitor)
   - 데드락(Deadlock)
-- 프로세스 상태와 스케줄링
 - 시스템 콜과 인터럽트
 - 쓰레드 풀(Thread Pool)
 - 가상 메모리와 메모리 관리 전략
