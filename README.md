@@ -132,7 +132,6 @@
 - 관계형 데이터베이스(Relational Database, RDB)
 - 스키마(Schema), 키(Key)
 - SQL
-- SQL Join
 - SQL Injection
 - 인덱스(Index)
 - 뷰(View)
