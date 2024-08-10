@@ -96,7 +96,7 @@
 
 ## 운영체제
 - 시스템 콜과 인터럽트
-- 프로세스 vs 쓰레드
+- 프로세스와 쓰레드
 - 프로세스 상태와 CPU 스케줄링
 - 동기화
   - Critical Section과 Race Condition
