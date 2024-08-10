@@ -130,11 +130,10 @@
 
 ## 데이터베이스
 - 관계형 데이터베이스(Relational Database, RDB)
-- 스키마(Schema)
-- 키(Key)
+- 스키마(Schema), 키(Key)
 - SQL
-- SQL Injection
 - SQL Join
+- SQL Injection
 - 인덱스(Index)
 - 뷰(View)
 - 저장 프로시저(Stored procedure)
