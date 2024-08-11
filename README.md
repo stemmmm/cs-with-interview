@@ -43,18 +43,17 @@
 - 가상화와 가상 머신
 - 인증 vs 인가
 - OAuth
-- JWT
 - Base64 인코딩
 
 <br>
 
 ## 컴퓨터구조
-- 폰 노이만 구조
-- 컴퓨터의 구성 요소
-- 중앙 처리 장치(CPU)
-- 캐시 메모리
-- 주 기억장치(RAM)
-- 보조 기억장치
+- 컴퓨터 구조 개요
+- CPU
+- 메모리 계층구조
+- 주기억장치
+- 보조기억장치
+- 입출력장치
 - 고정 소수점 표현 방식 vs 부동 소수점 표현 방식
 - 패리티 비트와 해밍 코드
 
@@ -75,7 +74,6 @@
 - 힙(Heap)과 우선순위 큐(Priority Queue)
 - 해시(Hash)
 - 트라이(Trie)
-- Thread-safe 자료구조
  
 <br>
 
@@ -103,12 +101,8 @@
 - [프로세스와 쓰레드](os/02-process-thread.md)
 - 프로세스 상태와 CPU 스케줄링
 - 동기화
-  - Critical Section과 Race Condition
-  - Mutex Lock과 Semaphore
-  - 모니터(Monitor)
-  - 데드락(Deadlock)
-- 쓰레드 풀(Thread Pool)
 - 가상 메모리와 메모리 관리 전략
+- 쓰레드 풀(Thread Pool)
 - Blocking I/O vs Non-blocking I/O
 - 동기(Synchronous) vs 비동기(Asynchronous)
 - 파일 시스템
@@ -116,17 +110,16 @@
 <br>
 
 ## 네트워크
-- URL, URI, URN
-- OSI 7계층 vs TCP/IP 4계층
+- 네트워크 개요
+- OSI 모델 vs TCP/IP 모델
 - 물리 계층과 데이터 링크 계층
 - 네트워크 계층
-- IP
-- TCP와 UDP
-- 애플리케이션 계층(HTTP)
-- DNS
-- 쿠키 vs 세션
-- 웹소켓과 소켓 통신
-- 로드 밸런싱(Load Balancing)
+- 전송 계층
+- 응용 계층
+- 쿠키, 세션, JWT
+- 로드 밸런싱
+- 포워드 프록시와 리버스 프록시
+- HTTPS
 - SOP와 CORS
 - XSS와 CSRF
 
@@ -141,7 +134,7 @@
 - 저장 프로시저(Stored procedure)
 - 트리거(Trigger)
 - 트랜잭션(Transaction)
-  - 트랜잭션 격리 레벨 (Transaction Isolation Level)
+  - 트랜잭션 격리 레벨(Transaction Isolation Level)
   - 락(Lock)
   - Multi-Version Concurrency Control(MVCC)
 - 정규화(Normalization)
