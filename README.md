@@ -99,8 +99,8 @@
 <br>
 
 ## 운영체제
-- 시스템 콜과 인터럽트
-- [프로세스와 쓰레드](os/process-thread.md)
+- [시스템 콜과 인터럽트](os/01-os.md)
+- [프로세스와 쓰레드](os/02-process-thread.md)
 - 프로세스 상태와 CPU 스케줄링
 - 동기화
   - Critical Section과 Race Condition
