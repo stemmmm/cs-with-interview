@@ -99,7 +99,7 @@
 <br>
 
 ## 운영체제
-- [시스템 콜과 인터럽트](os/01-os.md)
+- [운영체제 개요](os/01-os.md)
 - [프로세스와 쓰레드](os/02-process-thread.md)
 - 프로세스 상태와 CPU 스케줄링
 - 동기화
@@ -133,8 +133,7 @@
 <br>
 
 ## 데이터베이스
-- 관계형 데이터베이스(Relational Database, RDB)
-- 스키마(Schema), 키(Key)
+- 데이터베이스 개요
 - SQL
 - SQL Injection
 - 인덱스(Index)
