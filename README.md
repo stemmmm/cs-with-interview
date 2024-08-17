@@ -49,12 +49,12 @@
 
 ## 컴퓨터구조
 - 컴퓨터 구조 개요
+- 고정 소수점 vs 부동 소수점
 - CPU
 - 메모리 계층구조
 - 주기억장치
 - 보조기억장치
 - 입출력장치
-- 고정 소수점 표현 방식 vs 부동 소수점 표현 방식
 - 패리티 비트와 해밍 코드
 
 <br>
@@ -68,9 +68,6 @@
 - 덱(Deque)
 - 그래프(Graph)
 - 트리(Tree)
-  - 이진탐색트리(Binary Search Tree, BST)
-  - B-Tree와 B+Tree
-  - 레드-블랙 트리(Red-Black Tree)
 - 힙(Heap)과 우선순위 큐(Priority Queue)
 - 해시(Hash)
 - 트라이(Trie)
