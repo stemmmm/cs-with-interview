@@ -91,7 +91,7 @@
 ## 운영체제
 - [운영체제 개요](os/01-os.md)
 - [프로세스와 쓰레드](os/02-process-thread.md)
-- 프로세스 상태
+- [프로세스 상태와 계층 구조](os/03-process-state-and-hierarchy.md)
 - CPU 스케줄링
 - 동기화
 - 가상 메모리와 메모리 관리 전략
