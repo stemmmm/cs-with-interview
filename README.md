@@ -1,5 +1,5 @@
 # cs-with-interview-questions
-- 컴퓨터공학을 모의 면접 방식으로 학습하는 스터디
+- 컴퓨터공학을 모의 면접으로 학습하는 스터디
 - 레퍼런스: https://github.com/VSFe/Tech-Interview
 
 <br>
