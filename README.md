@@ -1,5 +1,5 @@
 # cs-with-interview-questions
-- 컴퓨터공학을 모의 면접으로 학습하는 스터디
+- 모의 면접으로 컴퓨터공학을 학습하는 스터디
 - 레퍼런스: https://github.com/VSFe/Tech-Interview
 
 <br>
@@ -77,7 +77,7 @@
 - [운영체제 개요](os/01-os.md)
 - [프로세스와 쓰레드](os/02-process-thread.md)
 - [프로세스 상태와 계층 구조](os/03-process-state-and-hierarchy.md)
-- CPU 스케줄링
+- [CPU 스케줄링](os/04-cpu-scheduling.md)
 - 동기화
 - 가상 메모리와 메모리 관리 전략
 - 쓰레드 풀(Thread Pool)
