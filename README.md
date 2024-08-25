@@ -74,10 +74,10 @@
 <br>
 
 ## 운영체제
-- [운영체제 개요](os/01-operating-system.md)
-- [프로세스와 쓰레드](os/02-process-thread.md)
-- [프로세스 상태와 계층 구조](os/03-process-state-and-hierarchy.md)
-- [CPU 스케줄링](os/04-cpu-scheduling.md)
+- [운영체제 개요](operating-system/01-operating-system.md)
+- [프로세스와 쓰레드](operating-system/02-process-thread.md)
+- [프로세스 상태와 계층 구조](operating-system/03-process-state-and-hierarchy.md)
+- [CPU 스케줄링](operating-system/04-cpu-scheduling.md)
 - 동기화
 - 가상 메모리와 메모리 관리 전략
 - 쓰레드 풀(Thread Pool)
