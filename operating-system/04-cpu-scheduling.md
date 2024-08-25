@@ -82,12 +82,3 @@
 
 ## 응용 문제
 
-<details>  
-<summary><h3>쓰레드는 어떤 방식으로 스케줄링 하나요?</h3></summary>
-
-</details>
-
-<details>  
-<summary><h3>리눅스에서는 어떤 프로세스 스케줄링 알고리즘을 사용하나요?</h3></summary>
-
-</details>
