@@ -69,12 +69,12 @@
 </details>
 
 <details>  
-<summary><h3>Multilevel queue 스케줄링에 대해 설명하세요.</h3></summary>
+<summary><h3>Multilevel queue에 대해 설명하세요.</h3></summary>
 
 </details>
 
 <details>  
-<summary><h3>Multilevel feedback queue 스케줄링에 대해 설명하세요.</h3></summary>
+<summary><h3>Multilevel feedback queue에 대해 설명하세요.</h3></summary>
 
 </details>
 
