@@ -83,6 +83,6 @@
 ## 응용 문제
 
 <details>  
-<summary><h3>쓰레드는 어떤 방식으로 스케줄링 하나요?</h3></summary>
+<summary><h3>쓰레드는 어떤 방식으로 스케줄링하나요?</h3></summary>
 
 </details>
