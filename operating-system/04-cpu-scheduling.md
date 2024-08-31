@@ -57,12 +57,12 @@
 <details>  
 <summary><h3>선점형과 비선점형 스케줄링에 대해 설명하세요.</h3></summary>
 
-#### 선점형 스케줄링
+#### 선점형(Preemptive) 스케줄링
 - 운영체제가 실행중인 프로세스로부터 자원을 강제로 뺏어 다른 프로세스에 할당할 수 있는 스케줄링 방식
 - 자원을 공정하게 분배할 수 있지만 컨텍스트 스위칭 오버헤드 존재
 - 현재 대부분의 운영체제가 사용중인 방식
 
-#### 비선점형 스케줄링
+#### 비선점형(Non-preemptive) 스케줄링
 - 운영체제가 실행중인 프로세스로부터 자원을 강제로 뺏을 수 없는 스케줄링 방식
 - 현재 실행중인 프로세스가 종료되거나 스스로 대기 상태가 되기 전까진 자원을 뺏을 수 없음
 - 컨텍스트 스위칭 오버헤드는 비교적 적지만, 자원을 공정하게 분배받지 못함
@@ -83,6 +83,7 @@
 #### 단기 스케줄러(CPU 스케줄러)
 - 준비 큐에 있는 프로세스 중 실행될 프로세스를 선택
 - CPU 할당을 최적화하기 위한 스케줄러, CPU 스케줄러라고도 부름
+- 아래의 '스케줄링 알고리즘' 파트는 단기 스케줄러에서 사용하는 알고리즘을 의미함
 
 #### 중기 스케줄러
 - 실행 중인 프로세스의 스와핑을 담당
@@ -104,34 +105,54 @@
 <details>  
 <summary><h3>FCFS(First Come First Served) 스케줄링에 대해 설명하세요.</h3></summary>
 
-<details>  
-<summary><h4>Convoy effect에 대해 설명하세요.</h3></summary>
+- 정의: 준비 큐에 삽입된 순서대로 프로세스를 실행하는 비선점형 스케줄링 알고리즘
+- 장점: 단순하고 구현이 용이함
+- 단점: CPU bound 프로세스가 있을 경우, 뒤에 있는 다른 프로세스들이 오랫동안 대기해야하는 문제 발생
 
+<details>  
+<summary><h4>호위 효과(Convoy effect)에 대해 설명하세요.</h3></summary>
+
+- CPU bound 프로세스가 준비 큐의 앞에 있을 경우, 뒤에 있는 CPU 버스트가 짧은 프로세스들도 오랫동안 대기해야하는 문제
+- I/O bound 프로세스와 CPU bound 프로세스가 많이 섞여있는 환경일수록 문제가 커짐
 </details>
 </details>
 
 <details>  
 <summary><h3>SJF(Shortest Job First) 스케줄링에 대해 설명하세요.</h3></summary>
 
+- 정의: CPU 버스트가 가장 짧은 프로세스부터 실행하는 비선점형 스케줄링 알고리즘
+- 장점: 효울적, convoy effect 해결
+- 단점: 실제 CPU 버스트 시간을 예측하기 어렵고, 기아(starvation) 현상이 발생할 수 있음
+</details>
+
+<details>  
+<summary><h3>SRTF(Shortest Remaining Time First) 스케줄링에 대해 설명하세요.</h3></summary>
+
+- 정의: CPU 버스트가 가장 짧은 프로세스부터 실행하는 선점형 스케줄링 알고리즘(SJF의 선점형 버전)
+  - 즉, 현재 실행 중인 프로세스의 남은 CPU 버스트보다 다른 프로세스의 예상 CPU 버스트가 더 짧으면 현재 프로세스를 중단하고 다른 프로세스 실행
+- 장점: 효울적, convoy effect 해결
+- 단점: 기아(starvation) 현상이 발생할 수 있으며, 빈번한 컨텍스트 스위칭이 발생할 수 있음
 </details>
 
 <details>  
 <summary><h3>RR(Round Robin) 스케줄링에 대해 설명하세요.</h3></summary>
 
-<details>  
-<summary><h4>Time slice에 따른 trade-off를 설명하세요.</h3></summary>
-
-</details>
-</details>
+- 정의: 준비 큐에 삽입된 순서대로 타임 슬라이스 만큼의 시간동안 번갈아가며 실행하는 선점형 스케줄링 알고리즘
+  - 각 프로세스는 정해진 타임 슬라이스 동안 CPU를 사용하며, 완료되지 못한 경우 다시 준비 큐의 끝으로 이동
+- 타임 슬라이스: 각 프로세스가 CPU를 사용할 수 있는 정해진 시간
 
 <details>  
-<summary><h3>SRT(Shortest Remaining Time) 스케줄링에 대해 설명하세요.</h3></summary>
+<summary><h4>타임 슬라이스의 크기에 따른 트레이드오프를 설명하세요.</h3></summary>
 
+- 타임 슬라이스의 크기가 너무 크면 FCFS 스케줄링과 크게 다를 바가 없어져 convoy effect 발생 가능
+- 타임 슬라이스의 크기가 너무 작으면 컨텍스트 스위칭 오버헤드 증가
+</details>
 </details>
 
 <details>  
 <summary><h3>우선순위 스케줄링에 대해 설명하세요.</h3></summary>
 
+- 우선선위가 높은 프로세스부터 실행
 <details>  
 <summary><h4>Starvation 문제와 그 해결법에 대해 설명하세요.</h4></summary>
 
@@ -141,6 +162,8 @@
 <details>  
 <summary><h3>Multilevel queue에 대해 설명하세요.</h3></summary>
 
+- 프로세스들을 그룹화해서 그룹마다 큐를 두는 스케줄링
+- 큐마다 자신만의 스케줄링 방식을 가질 수 있음
 </details>
 
 <details>  
