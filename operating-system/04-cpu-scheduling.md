@@ -153,33 +153,42 @@
 <summary><h3>우선순위 스케줄링에 대해 설명하세요.</h3></summary>
 
 - 정의: 우선순위가 높은 프로세스부터 실행하는 스케줄링 알고리즘
-- SJF, SRTF도 넓은 의미에서 우선순위 스케줄링의 일종임
-- 장점:
-- 단점: 
+- SJF, SRTF도 CPU 버스트 시간을 우선순위로 취급하므로 넓은 의미에서 우선순위 스케줄링이라 할 수 있음
+- 단점: 우선순위가 낮은 프로세스가 우선순위가 높은 프로세스에 밀려 계속해서 CPU를 할당받지 못하는 기아(starvation) 현상 발생 가능
 
 <details>  
 <summary><h4>기아(Starvation) 현상과 그 해결법에 대해 설명하세요.</h4></summary>
 
+- 정의: 우선순위가 낮은 프로세스가 우선순위가 높은 프로세스에 밀려 계속해서 CPU를 할당받지 못하는 현상
+- 해결법: 오랫동안 대기한 프로세스의 우선순위를 점진적으로 높여주는 에이징(Aging) 기법을 사용해 해결
 </details>
 </details>
 
 <details>  
-<summary><h3>Multilevel queue에 대해 설명하세요.</h3></summary>
+<summary><h3>Multilevel queue 스케줄링에 대해 설명하세요.</h3></summary>
 
-- 프로세스들을 그룹화해서 그룹마다 큐를 두는 스케줄링
-- 큐마다 자신만의 스케줄링 방식을 가질 수 있음
+- 정의: 우선순위나 특성에 따라 여러 준비 큐를 사용하는 스케줄링
+- 높은 우선순위의 큐에 있는 프로세스들을 먼저 전부 처리한 다음 낮은 우선순위의 큐에 있는 프로세스를 처리함
+- 각 큐는 별도의 스케줄링 알고리즘을 사용할 수 있음
+- 마찬가지로 기아 현상 발생 가능
+
+![image](https://github.com/user-attachments/assets/6754b228-090f-46b5-91c3-a335cfb55cf6)
+ 
 </details>
 
 <details>  
-<summary><h3>Multilevel feedback queue에 대해 설명하세요.</h3></summary>
+<summary><h3>Multilevel feedback queue 스케줄링에 대해 설명하세요.</h3></summary>
 
-</details>
+#### 개념
+- Multilevel queue 스케줄링의 발전된 형태
+- Multilevel queue 스케줄링에서는 프로세스들의 큐 간 이동이 불가해 기아 현상이 발생할 수 있는데, Multilevel feedback queue 스케줄링에서는 프로세스가 큐 사이를 이동할 수 있어 기아 현상이 발생하지 않음
+- 가장 일반적으로 사용하는 CPU 스케줄링 알고리즘
 
-<br>
+#### 작동방식
+1. 새로 준비 상태가 된 프로세스는 가장 높은 우선순위의 큐에 삽입
+2. 삽입된 프로세스가 해당 큐에서 실행이 완료되지 않으면 다음 우선순위의 큐에 삽입 (반복)
+3. 낮은 우선순위가 되어 오랫동안 실행되지 못한 경우 다시 우선순위가 높은 큐로 이동시키는 에이징 기법 적용
 
-## 응용 문제
-
-<details>  
-<summary><h3>쓰레드는 어떤 방식으로 스케줄링하나요?</h3></summary>
-
+##### 결론
+- 결국 CPU bound 프로세스의 우선순위는 점점 낮아지며, I/O bound 프로세스는 빠르게 실행될 수 있음
 </details>
