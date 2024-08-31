@@ -152,9 +152,13 @@
 <details>  
 <summary><h3>우선순위 스케줄링에 대해 설명하세요.</h3></summary>
 
-- 우선선위가 높은 프로세스부터 실행
+- 정의: 우선순위가 높은 프로세스부터 실행하는 스케줄링 알고리즘
+- SJF, SRTF도 넓은 의미에서 우선순위 스케줄링의 일종임
+- 장점:
+- 단점: 
+
 <details>  
-<summary><h4>Starvation 문제와 그 해결법에 대해 설명하세요.</h4></summary>
+<summary><h4>기아(Starvation) 현상과 그 해결법에 대해 설명하세요.</h4></summary>
 
 </details>
 </details>
