@@ -78,7 +78,9 @@
 - [프로세스와 쓰레드](operating-system/02-process-thread.md)
 - [프로세스 상태와 계층 구조](operating-system/03-process-state-and-hierarchy.md)
 - [CPU 스케줄링](operating-system/04-cpu-scheduling.md)
-- 동기화
+- [동기화](operating-system/05-synchronization.md)
+- 동기화 기법
+- 교착 상태
 - 가상 메모리와 메모리 관리 전략
 - 쓰레드 풀(Thread Pool)
 - Blocking I/O vs Non-blocking I/O
