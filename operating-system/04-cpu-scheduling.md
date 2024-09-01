@@ -199,13 +199,18 @@
 <details>  
 <summary><h4>짧은 응답 시간이 중요한 경우</h4></summary>
 
+- RR 등
 </details>
 <details>  
 <summary><h4>준비 큐에 CPU bound, I/O bound이 반반 섞인 경우</h4></summary>
 
+- SJF, SRTF 등
+- 이유: I/O bound 프로세스를 먼저 실행해야 하므로
 </details>
 <details>  
 <summary><h4>준비 큐에 CPU bound 작업이 많은 경우</h4></summary>
 
+- FCFS, 우선순위 스케줄링 등
+- 이유: 컨텍스트 스위칭 오버헤드를 줄일 수 있으므로
 </details>
 </details>
