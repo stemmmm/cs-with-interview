@@ -173,7 +173,6 @@
 - 마찬가지로 기아 현상 발생 가능
 
 ![image](https://github.com/user-attachments/assets/6754b228-090f-46b5-91c3-a335cfb55cf6)
- 
 </details>
 
 <details>  
@@ -191,4 +190,21 @@
 
 ##### 결론
 - 결국 CPU bound 프로세스의 우선순위는 점점 낮아지며, I/O bound 프로세스는 빠르게 실행될 수 있음
+</details>
+
+<details>  
+<summary><h3>다음 상황에 사용하면 적절한 스케줄링 알고리즘에 대해 설명하세요.</h3></summary>
+
+<details>  
+<summary><h4>짧은 응답 시간이 중요한 경우</h4></summary>
+
+</details>
+<details>  
+<summary><h4>준비 큐에 CPU bound, I/O bound이 반반 섞인 경우</h4></summary>
+
+</details>
+<details>  
+<summary><h4>준비 큐에 CPU bound 작업이 많은 경우</h4></summary>
+
+</details>
 </details>
