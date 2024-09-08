@@ -10,13 +10,12 @@
 </details>
 
 <details>  
-<summary><h3>독자-저자 문제(Readers-writers problem)에 대해 설명하세요.</h3></summary>
-
-</details>
+<summary><h3>메모리 가시성에 대해 설명하세요.</h3></summary>
 
 <details>  
-<summary><h3>생산자-소비자 문제(Producer-consumer problem)에 대해 설명하세요.</h3></summary>
+<summary><h4>자바의 `volatile` 키워드에 대해 설명하세요.</h4></summary>
 
+</details>
 </details>
 
 <details>  
@@ -26,5 +25,18 @@
 
 <details>  
 <summary><h3>경쟁 조건(Race condition)과 이를 방지하는 방법에 대해 설명하세요.</h3></summary>
+
+</details>
+
+
+---
+
+<details>  
+<summary><h3>독자-저자 문제(Readers-writers problem)에 대해 설명하세요.</h3></summary>
+
+</details>
+
+<details>  
+<summary><h3>생산자-소비자 문제(Producer-consumer problem)에 대해 설명하세요.</h3></summary>
 
 </details>
