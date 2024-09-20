@@ -64,11 +64,6 @@
 </details>
 
 <details>  
-<summary><h3>독자-저자 문제(Readers-writers problem)에 대해 설명하세요.</h3></summary>
-
-</details>
-
-<details>  
 <summary><h3>생산자-소비자 문제(Producer-consumer problem)에 대해 설명하세요.</h3></summary>
 
 </details>
