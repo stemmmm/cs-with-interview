@@ -62,8 +62,3 @@
 - 또한, `volatile` 키워드만 사용한다해서 원자성이 보장되지는 않음
 </details>
 </details>
-
-<details>  
-<summary><h3>생산자-소비자 문제(Producer-consumer problem)에 대해 설명하세요.</h3></summary>
-
-</details>
