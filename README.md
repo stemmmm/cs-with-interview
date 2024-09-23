@@ -1,4 +1,4 @@
-# cs-with-tech-interview
+# cs-with-interview
 - 모의 면접으로 컴퓨터공학을 학습하는 스터디
 - 레퍼런스: https://github.com/VSFe/Tech-Interview
 
@@ -79,7 +79,7 @@
 - [프로세스 상태와 계층 구조](operating-system/03-process-state-and-hierarchy.md)
 - [CPU 스케줄링](operating-system/04-cpu-scheduling.md)
 - [동기화](operating-system/05-synchronization.md)
-- 동기화 기법
+- [동기화 기법](operating-system/06-synchronization-techniques.md)
 - 교착 상태
 - 가상 메모리와 메모리 관리 전략
 - 쓰레드 풀(Thread Pool)
