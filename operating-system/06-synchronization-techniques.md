@@ -12,6 +12,45 @@
 <details>  
 <summary><h3>뮤텍스 락에 대해 설명하세요.</h3></summary>
 
+#### 개념
+- 상호 배제를 위한 동기화 기법
+- 즉, 임계 구역에 한번에 하나의 스레드만 접근할 수 있도록 함
+
+#### 동작
+1. 락 획득: 스레드는 임계 구역에 진입하기 전 뮤텍스 락 획득을 요청하는데, 만약 뮤텍스 락이 다른 스레드에 의해 사용 중이라면, 해당 스레드는 락이 해제될 때까지 대기 상태로 전환되거나 busy waiting 함
+2. 임계 구역 진입: 뮤텍스 락을 획득한 스레드는 임계 구역에 진입해 공유 자원을 안전하게 접근 및 수정할 수 있음
+3. 락 해제: 스레드가 임계 구역 내에서 작업을 완료하면, 뮤텍스 락을 해제하여 다른 스레드가 임계 구역에 진입할 수 있도록 함
+
+#### 코드
+```java
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Counter {
+    private int count = 0;
+    private final Lock lock = new ReentrantLock();
+
+    public void increment() {
+        lock.lock();  // 뮤텍스 락 획득
+
+        try {
+            count++;
+        } finally {
+            lock.unlock();  // 뮤텍스 락 해제
+        }
+    }
+
+    public int getCount() {
+        lock.lock();
+
+        try {
+            return count;
+        } finally {
+            lock.unlock();
+        }
+    }
+}
+```
 </details>
 
 <details>  
