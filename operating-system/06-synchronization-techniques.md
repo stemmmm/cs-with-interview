@@ -13,8 +13,7 @@
 <summary><h3>뮤텍스 락에 대해 설명하세요.</h3></summary>
 
 #### 개념
-- 상호 배제를 위한 동기화 기법
-- 즉, 임계 구역에 한번에 하나의 스레드만 접근할 수 있도록 함
+- 임계 구역에 한 번에 하나의 스레드만 접근할 수 있도록 하는 동기화 매커니즘
 
 #### 동작
 1. 락 획득: 스레드는 임계 구역에 진입하기 전 뮤텍스 락 획득을 요청하는데, 만약 뮤텍스 락이 다른 스레드에 의해 사용 중이라면, 해당 스레드는 락이 해제될 때까지 대기 상태로 전환되거나 busy waiting 함
@@ -56,11 +55,55 @@ public class Counter {
 <details>  
 <summary><h3>세마포어에 대해 설명하세요.</h3></summary>
 
+#### 개념
+- 일정 개수의 스레드만 동시에 임계 구역에 진입할 수 있도록 허용하는 동기화 매커니즘
+- 동작 방식은 카운터가 있다는 점을 제외하면 뮤텍스 락과 동일함
+- 동시에 여러 스레드가 접근해도 되는 경우에 사용(e.g. DB 커넥션 풀 등)
+
+#### 코드
+```java
+import java.util.concurrent.Semaphore;
+
+public class SharedResource {
+    private final Semaphore semaphore;
+
+    public SharedResource(int permits) {
+        this.semaphore = new Semaphore(permits);  // 특정 개수의 스레드만 임계 구역에 접근하도록 설정
+    }
+
+    public void accessResource() {
+        try {
+            semaphore.acquire();  // 세마포어 획득 (카운터 감소)
+            // 임계 구역 시작
+            System.out.println("Resource accessed by " + Thread.currentThread().getName());
+            Thread.sleep(1000);  // 자원 접근 시뮬레이션
+            // 임계 구역 종료
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        } finally {
+            semaphore.release();  // 세마포어 해제 (카운터 증가)
+        }
+    }
+
+    public static void main(String[] args) {
+        SharedResource resource = new SharedResource(2);  // 동시에 2개의 스레드만 임계 구역 접근 가능
+
+        for (int i = 0; i < 5; i++) {
+            new Thread(resource::accessResource, "Thread-" + i).start();
+        }
+    }
+}
+```
 </details>
 
 <details>  
 <summary><h3>모니터에 대해 설명하세요.</h3></summary>
 
+#### 개념
+- 상호 배제, 조건 대기를 통해 임계 구역을 관리하는 고수준의 동기화 매커니즘
+- 임계 구역 내에 하나의 스레드만 진입할 수 있도록 제한하며, 조건 변수를 사용해 특정 조건이 만족되었을 때만 대기 중인 스레드를 깨워 작업을 수행하게 함
+- 자바의 `synchroninzed` 키워드, `Object`의 `wait()`, `notify()`, `notifyAll()` 메서드가 대표적인 모니터의 예시임
+- 아래 `Condition`을 사용한 생산자-소비자 문제의 개선1 부분 코드가 모니터의 내부 구현과 유사함
 </details>
 
 <details>  
