@@ -1,8 +1,11 @@
 # 동기화 기법
 
 <details>  
-<summary><h3>원자성에 대해 설명하세요.</h3></summary>
+<summary><h3>원자적 연산에 대해 설명하세요.</h3></summary>
 
+- 더 이상 나눌 수 없는 단위의 연산
+- 실행 중간에 끼어들 수 없고, 연산이 완전히 실행되거나 전혀 수행되지 않는 방식으로 동작함(all or nothing)
+- 자바의 경우 `synchronized`나 `Lock`을 사용해 여러 연산을 하나의 원자적인 단위로 묶을수 있음
 </details>
 
 <details>  
