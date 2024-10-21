@@ -81,8 +81,8 @@
 - [동기화](operating-system/05-synchronization.md)
 - [동기화 기법](operating-system/06-synchronization-techniques.md)
 - [데드락](operating-system/07-deadlock.md)
-- 스레드 풀
-- 가상 메모리와 메모리 관리 전략
+- [스레드 풀](operating-system/08-thread-pool.md)
+- [가상 메모리](operating-system/09-virtual-memory.md)
 - 동기 vs 비동기, Blocking vs Non-blocking
 - 파일 시스템
 
