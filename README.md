@@ -1,4 +1,4 @@
-# cs-with-interview
+# cs-study
 - 컴퓨터 공학 지식을 모의 면접으로 습득하는 스터디
 - 레퍼런스: https://github.com/VSFe/Tech-Interview
 
@@ -81,7 +81,7 @@
 - [동기화](operating-system/05-synchronization.md)
 - [동기화 기법](operating-system/06-synchronization-techniques.md)
 - [데드락](operating-system/07-deadlock.md)
-- 쓰레드 풀
+- 스레드 풀
 - 가상 메모리와 메모리 관리 전략
 - 동기 vs 비동기, Blocking vs Non-blocking
 - 파일 시스템
